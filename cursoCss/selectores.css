@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+h1,p{
+    color: rgb(139, 0, 0);
+    font-style: italic;
+}
+
+p samp{
+    color:darkkhaki
+}
+
+p h2{
+    color: darkorchid;
+}
+
+p a{
+    color: red;
+}
