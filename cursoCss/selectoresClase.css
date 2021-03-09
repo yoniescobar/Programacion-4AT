@@ -1,12 +1,32 @@
+/* Selector universal */
+*{  margin: 0;
+    padding: 0;
+    background-color: chartreuse;
+}
+
+/*selector etiqueta*/
+h1{
+    font-size: 50px;
+    color: brown;
+}
+
+/* selector de Clase */
 .rojo{
-    font-size: medium;
     color: red;
 }
 
+/* Selector de identificador */
 #azul{
-    color: blue;
+    color: rgb(135, 136, 222);
+    font-size: 30px;
 }
 
-#amarillo{
-    color: rgb(221, 174, 18);
+/* Selectores avanzados */
+
+div> p{
+    font-size: 35px;
+}
+
+article{
+     color: chartreuse;
 }
