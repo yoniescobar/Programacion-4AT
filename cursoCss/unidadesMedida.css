@@ -1,0 +1,12 @@
+body{
+    font-size: 20px; 
+}
+p{
+    font-size: 1em;
+}
+
+.contanedor_padre{
+    width: 10em;
+    height: 10em;
+    background: #000;
+}

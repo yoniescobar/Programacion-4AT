@@ -1,0 +1,25 @@
+
+.caja{
+    width:600px;
+    height: 400px;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+2,ffc6c6+13,e86c57+23,e86c57+27,e86c57+33,ea2803+42,e23400+52,e23400+52,e23400+62,0c0096+100 */
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 2%, #ffc6c6 13%, #e86c57 23%, #e86c57 27%, #e86c57 33%, #ea2803 42%, #e23400 52%, #e23400 52%, #e23400 62%, #0c0096 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ffffff 2%,#ffc6c6 13%,#e86c57 23%,#e86c57 27%,#e86c57 33%,#ea2803 42%,#e23400 52%,#e23400 52%,#e23400 62%,#0c0096 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ffffff 2%,#ffc6c6 13%,#e86c57 23%,#e86c57 27%,#e86c57 33%,#ea2803 42%,#e23400 52%,#e23400 52%,#e23400 62%,#0c0096 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#0c0096',GradientType=0 ); /* IE6-9 */
+}
+
+
+.caja2{
+    width: 600px;
+    height: 400px;
+
+ /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#feccb1+0,f17432+50,ea5507+51,fb955e+100;Red+Gloss+%232 */
+background: #feccb1; /* Old browsers */
+background: -moz-linear-gradient(45deg,  #feccb1 0%, #f17432 50%, #ea5507 51%, #fb955e 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg,  #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg,  #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feccb1', endColorstr='#fb955e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
