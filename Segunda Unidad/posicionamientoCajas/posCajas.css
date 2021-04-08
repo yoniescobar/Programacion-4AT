@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #d3c6c6;
+}
+
+.caja{
+    width: 200px;
+    height: 200px;
+    background: #034672;
+    margin: 20px;
+    color: #fff;
+}
+
+
+.uno{
+    background: rgb(229, 253, 9);
+}
+
+.dos{
+    background: rgb(25, 243, 6);
+    position: absolute;
+    left: 400px;
+    top: 0;
+    
+}
+
+.tres{
+    margin-top: 0;
+    background: rgb(243, 6, 6);
+    position: relative;
+   
+    left: 200px;
+ 
+
+}
+
