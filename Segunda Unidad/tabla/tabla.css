@@ -1,0 +1,26 @@
+body{
+    font-family: helvetica;
+}
+
+.table,td,th{
+    border: 2px solid rgb(236, 4, 4);
+}
+
+table{
+    border-collapse: collapse;
+    width: 500px;
+    text-align: center;
+}
+th,td{
+    padding: 10px 20px;
+}
+
+th{
+    background: #056f99;
+    color: #fff;
+}
+
+tr:hover{
+    background: rgba(7, 15, 124, 0.4);
+    color: #fff;
+}
