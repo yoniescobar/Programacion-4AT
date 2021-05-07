@@ -7,61 +7,158 @@
 }
 
 body{
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    background: rgb(51, 3, 45);
-}
+    background: #4a465b;
+  }
 
-.contendor{
-    width: 90%;
-    max-width: 1000px;
+  .contenedor{
+   width: 90%;
     margin: 20px auto;
     overflow: hidden;
-}
-header{
+  }
+  
+  header{
     background: #fff;
-}
+  }
 
-header nav{
-    width: 100%;
+  header nav{
+    width: 90%;
+   
+    
 }
 
 header nav ul{
+    width: 90%;  
+    overflow: hidden;         /* Elemento padre de li  para ver fondo blanco. ???*/
     list-style: none;
-    overflow: hidden;
-}
+    
+ }
+ 
+ header nav ul li{
+    float: left; 
+    
+    
+    /* display: inline-block; */
+  }
 
-header nav ul li {
-    float:  left;
-}
+  header nav ul li a {
+    text-decoration: none;  /*  quitar el subrado a etiqueta ancla */
+    display: inline-block;  /* para modificar el padding*/
+    padding: 15px 20px;    /*separaciones de blok Inicio - Acerca de - Producto -Cotacto de menus*/
+    color: #000;
+    transition: 0.6s ease all ;
+    
+ }
+  
+ header nav ul li a:hover { /*Agrego psedoclase hover para que al pasar el mouse cambie de color*/
+    background-color: rgb(20, 10, 10);
+    color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 50px  rgba(189, 55, 55, 0.15);
+    font-size: 18px;
+    }
 
-header nav ul li a{
-    text-decoration: none;
-    display: inline-block;
-    padding: 15px 20px;
-    color: crimson;
-}
-
-header nav ul li a:hover{
-    background: darkblue;
-    color: #fff;
-}
-
+    /*Estilos contendor Main */
 .main{
     width: 70%;
-    float: left;
     background: #fff;
+    float: left;
+  }
+
+  .main .imagen{
+    width: 100%;  /*abarca el 100% que es 700 px que es el contenedor */
+  }
+
+  .main  .imagen img{
+    width: 100%;  /*abarca la foto el 100% que es 700 px en caso el conendor cambia de tamaño la imagen se ajusta*/
+    vertical-align: top; /*quitar un margen de lado izquierdo*/
+  }
+  
+  .main .posts{
+    padding: 40px; /*Margen interno del contenido de la pagina*/
 }
 
-.main .imagen{
-    width: 100%;
+.main .posts article h2{
+    margin-top: 20px;   /*titulo de Articulo - tiene margen arriba*/
+    color:#424242;
+    text-transform: uppercase;  /*Pasa el titulo a mayuscula*/
+    letter-spacing: 10px; /*espacio horizontlaes*/
+ }
+
+ .main .posts article p{
+    margin-bottom: 15px;
+    line-height: 27px; /*espacio verticales en los textos de parrafo*/
+    
+ }
+
+
+
+ aside{  /*el contenedor (caja principal) tiene 1000  ---> usamos en main 700 y ahora en aside 300 total 1000*/
+
+    width: 30%;
+    background: #161f26;
+    padding: 20px;
+    color: #fff;  
+    /*Alinear a la derecha el aside  
+    en este caso en el main = float left   y 
+     aside float=left   (left-Derecha )  (right-->derecho) y al conendor padre colocar
+     overflow: hidden*/
+   float: left;
 }
 
-.main .imagen img{
-    width: 100%;
-    vertical-align: top;
+aside .widget{
+    margin-bottom:20px ;
+  }
+  
+  
+aside .widget .titulo{
+    color: #ff8000;
+    border-bottom: 2px solid #ff8000;  /*colocar un border ______________  abajo color naranja*/
+    margin-bottom: 10px; /*margen de abajo 10px*/
+  }
+
+  aside .widget ul{
+    list-style: none;
+  
+  }
+
+  aside .widget ul li{
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    padding: 10px 0;
+  }
+
+  aside .widget ul li a{
+    color:#fff;
+    text-decoration: none;
+  }
+
+  aside .widget ul li a:hover{
+    color: #2bff00;
+  }
+  aside .widget p{
+    line-height: 27px;
+  }
+
+  footer{
+    width: 70%;  /*Puede hacer con 1000  px*/
+    overflow: hidden;
+    /* clear: both               sirve para empezar a una nueva linea */
+    background: #000;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+
 }
 
-.main .post{
- padding: 40px;
+@media screen and (max-width: 800px){
+   .main , aside, footer{
+     width: 100%;
+   }
+   body{
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    background: #1c038a;
+  }
+   
+   
 }

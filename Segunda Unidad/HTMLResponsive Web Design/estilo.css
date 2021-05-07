@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+  }
+.izquierdo{
+    background-color: red;
+    padding: 20px;
+    float:left;
+    width: 20%;
+}
+
+.main{
+    background-color: aqua;
+    padding: 20px;
+    float:left;
+    width: 60%;
+}
+
+.derecho{
+    background-color: rgb(4, 199, 13);
+    padding: 20px;
+    float:left;
+    width: 20%;
+}
+@media screen and (max-width: 800px){
+    
+    .izquierdo, .main, .derecho{
+        width: 100%;
+    }
+    
+}
