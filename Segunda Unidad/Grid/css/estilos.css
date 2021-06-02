@@ -1,0 +1,27 @@
+.grid{
+
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   gap:1em;
+   grid-template-rows: minmax(20px 5px);
+}
+
+.grid-anidado{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.grid-anidado > div{
+    border: 1px solid #000;
+    background:chartreuse;
+    padding: 1em;
+}
+
+.grid > div{
+    background: rgb(179, 13, 13);
+    padding: 1em;
+}
+
+.grid > div:hover{
+    border: 1px solid gold;
+}
